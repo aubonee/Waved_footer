@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------------- social-media section starts ----------------*/
+#social-media{
+    background-color: #f8f9fa;
+    padding:100px 0;
+    
+}
+#social-media p{
+    font-size:36px;
+    font-weight:600;
+    margin-bottom:30px;
+    
+}
+#social-media img{
+    width:60px;
+    transition: 0.5s;
+    
+}
+#social-media a:hover img{
+    transform:translateY(-10px);
+    
+}
+
+/*-------------------- social-media section ends ----------------*/
+#footer{
+   
+    /* background-image: linear-gradient(to right,,#a517ba,#5f1782); */
+    /* background-image: linear-gradient(to right,,url(https://thumbs.dreamstime.com/b/group-school-kids-raising-hands-classroom-education-elementary-learning-people-concept-teacher-sitting-57655971.jpg);*/
+    color: #f8f9fa ; 
+    /* font-weight: 600; */
+    background-image: linear-gradient(to right,#1e9513,#12600b);
+    background-size: cover;
+    background-blend-mode:screen;
+    position: relative;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+ 
+    
+}
+/* #footer .row{
+    transform:translateY(-75px);
+} */
+.footer-box{
+    
+    padding-right:20px;
+    padding-left: 40px;
+   
+}
+.svg{
+    margin:0;
+   padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+ .footer-box .fa{
+    margin-right:8px;
+    font-size:25px;
+    height:40px;
+    width:40px;
+    text-align: center;
+    padding-top:7px;
+    background-image:linear-gradient(to right,#4cb442,#75bb67,#4cb442) ;
+    border-radius:5px;
+    box-shadow: #1e9513;
+
+} 
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    max-width: 250px;
+    margin-top: 25px;
+    border-radius: 5px ;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    margin-top:25px;
+    border-radius: 0 ;
+
+}
+/* hr{
+    background-color: #fff;
+}
+.copyright{
+    color: black;
+} */
+/* .svg{
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+.copyright{
+  text-align: center;
+  color:#fff;
+    
+    padding: .1% 0% .1% 0%;
+    
+}
